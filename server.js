@@ -4,7 +4,7 @@ const path = require('path');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers')
 const hbs = exphbs.create({
-    
+    helpers
 });
 
 const session = require('express-session');
@@ -17,8 +17,8 @@ const sess = {
     saveUninitialized: true,
     store: new SequelizeStore({
         db: sequelize,
-        checkExpirationInterval: 1000 * 60 * 10, // will check every 10 minutes
-        expiration: 1000 * 60 * 30 // will expire after 30 minutes
+        checkExpirationInterval: 1000 * 60 * 10, 
+        expiration: 1000 * 60 * 30 
     })
 };
 const app = express();
