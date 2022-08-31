@@ -17,6 +17,7 @@
   - [License](#license)
   - [Contribution](#contributing)
   - [Screenshot](#screenshot)
+  - [deployed](#deployed-link)
   - [Contact](#contacts)
 
   
@@ -57,6 +58,9 @@
   ## Screenshot:
 
   ![Screen Shot](./public/assets/techblog.png)
+
+  ## deployed link
+  https://evening-inlet-89063.herokuapp.com/
 
   
   ## Contact:
